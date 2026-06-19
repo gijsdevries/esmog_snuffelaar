@@ -1,0 +1,213 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bcffc34a-d831-4e24-b8c4-0d923c3d51e5")
+	(paper "A4")
+	(title_block
+		(title "E smog snuffelaar - Gijs de Vries")
+		(rev "1.0")
+		(company "Hogeschool Utrecht")
+	)
+	(lib_symbols)
+	(text ""
+		(exclude_from_sim no)
+		(at 118.364 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a46eaaa-70a7-4c97-b0c0-dbcc80dc009a")
+	)
+	(sheet
+		(at 43.18 17.78)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13cc346d-46ad-4db0-918b-11d404bcea08")
+		(property "Sheetname" "MCU"
+			(at 43.18 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 43.18 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2755ee9e-1599-4e4f-b78a-bfb469abe41e")
+		(property "Sheetname" "Power"
+			(at 17.78 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 17.78 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 17.78)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "51fc41c6-776e-483d-a48d-09b05090397e")
+		(property "Sheetname" "esmog_detector"
+			(at 69.85 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esmog_detector.kicad_sch"
+			(at 69.85 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 17.78)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8f582b23-49f5-40c4-b894-4e132e0d63cc")
+		(property "Sheetname" "LED matrix"
+			(at 102.87 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_matrix.kicad_sch"
+			(at 102.87 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
