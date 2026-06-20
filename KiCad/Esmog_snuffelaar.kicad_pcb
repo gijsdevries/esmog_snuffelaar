@@ -15751,7 +15751,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -17695,7 +17695,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -23372,7 +23372,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -33372,7 +33372,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.92 -1.38)
@@ -43685,7 +43685,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C7074"
+		(property "JLCPCB Part" "C12743"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54725,7 +54725,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -67154,7 +67154,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -76493,7 +76493,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.92 -1.38)
@@ -77146,7 +77146,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C65831"
+		(property "JLCPCB Part" "C23171"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
