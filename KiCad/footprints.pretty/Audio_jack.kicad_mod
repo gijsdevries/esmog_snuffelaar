@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -11.43 0)
 		(layer "F.SilkS")
-		(uuid "6da0424b-a57c-40b5-9070-002b36ccae3c")
+		(uuid "09d0c475-28f9-4b32-8f1b-647d838014fb")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Jack_3.5mm_PJ31060-I_Horizontal"
 		(at 0 6.82 0)
 		(layer "F.Fab")
-		(uuid "cbac9fe3-e64a-49d3-acae-8577659d7bde")
+		(uuid "453d23d5-bc50-4c54-984c-41b34f6f5751")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fe9c5c32-413e-4bc9-ad98-94ae2c5e78c6")
+		(uuid "2e812272-fd36-45ea-8409-0ea9bd5ee6ad")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fd796f0f-1966-4304-8528-39b7b9fb64fa")
+		(uuid "dbc52257-9a2f-4f59-b6b5-86b77de2f4f6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -354,41 +354,41 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "c16ef5a6-7b4d-4e43-836b-499adfa6182f")
 	)
-	(pad "S" smd rect
+	(pad "1" smd rect
 		(at -3.65 -4.35)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1bc27a14-5ee0-43c0-a0ed-757455f5cb44")
 	)
-	(pad "T" smd rect
-		(at -3.65 -1.65)
-		(size 2.5 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bd2fa678-e486-44d2-8aa1-89e7787b981b")
-	)
-	(pad "T" smd rect
-		(at -3.65 3.45)
-		(size 2.5 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5d27e37d-c9cf-40ff-b061-ecffb55b3cce")
-	)
-	(pad "T" smd rect
+	(pad "2" smd rect
 		(at 3 -4.35)
 		(size 3.4 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca358953-a1d5-430a-b21b-70e5e16c5663")
 	)
-	(pad "T" smd rect
+	(pad "3" smd rect
+		(at -3.65 -1.65)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd2fa678-e486-44d2-8aa1-89e7787b981b")
+	)
+	(pad "4" smd rect
+		(at 3.65 2.15)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89baab65-d21e-42d2-895b-3631360c73b5")
+	)
+	(pad "5" smd rect
 		(at 3.2 4.35)
 		(size 3.4 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "092e71d8-b0a6-40e8-9dd4-460e2efa0332")
 	)
-	(pad "T" smd rect
-		(at 3.65 2.15)
+	(pad "6" smd rect
+		(at -3.65 3.45)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "89baab65-d21e-42d2-895b-3631360c73b5")
+		(uuid "5d27e37d-c9cf-40ff-b061-ecffb55b3cce")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ31060-I_Horizontal.step"

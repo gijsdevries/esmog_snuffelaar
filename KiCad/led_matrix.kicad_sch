@@ -3180,7 +3180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02156978-15ef-47c6-8300-8c9c6b7a24ce")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 38.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -3240,7 +3240,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3258,7 +3258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f360a4-c21c-49b7-a73a-3fd47f3cfa12")
-		(property "Reference" "Q11"
+		(property "Reference" "Q12"
 			(at 160.02 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +3361,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "Q11")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -3379,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edeaaa3-7b27-4982-8ea4-82356c07eeec")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 156.21 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3439,7 +3439,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f420f50-bde2-4171-b42c-062902715058")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3517,7 +3517,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3535,7 +3535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "153750ec-dc3c-4a20-b82f-93142a834d7d")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 104.14 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3595,7 +3595,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164446b1-497c-4753-8e9d-377c0ef93534")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 21.59 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3875,7 +3875,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4207,7 +4207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db8b125-297c-4e32-8621-f3f00a616098")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 156.21 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4267,7 +4267,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -5742,7 +5742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52f5abf5-054c-4682-88b3-6f63fb4ac3b2")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5803,7 +5803,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6179,7 +6179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564d27c1-7105-4532-b4b0-52b9cc2d862c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 38.1 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6239,7 +6239,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6414,7 +6414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60488a65-d4ee-4ad9-94b6-78e534c32a94")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 156.21 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6474,7 +6474,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6520427c-cb46-471f-8205-7c9da8a92ad0")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 21.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6553,7 +6553,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6728,7 +6728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebb6535-6ac8-4f7a-9992-9aaeabfb7b1e")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 156.21 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6788,7 +6788,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6806,7 +6806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7325ec03-93c5-4dca-8e07-f83ba9ca8674")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6866,7 +6866,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6884,7 +6884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75ccd98a-2490-43f5-8774-f70cd166c65b")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 156.21 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6944,7 +6944,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7119,7 +7119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a46831a-66a9-4160-b7bb-e2665757ce38")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 156.21 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7179,7 +7179,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7668,7 +7668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0f6dd9f-941f-4e5c-ad28-90d2c23d80cd")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 38.1 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7728,7 +7728,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7746,7 +7746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ebe416-18b1-4a10-8b57-90347eaa85d5")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 38.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +7806,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5933531-6b6e-426c-999e-551a83a7d03a")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 31.75 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8199,7 +8199,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8217,7 +8217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77fcd3a-b797-4dde-91dc-a1d89df6ce36")
-		(property "Reference" "Q9"
+		(property "Reference" "Q10"
 			(at 160.02 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8320,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "Q9")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c917bc2d-d47f-40c1-b52e-40782e14ef7c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 104.14 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9026,7 +9026,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9201,7 +9201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda14755-c51d-476c-bda0-3ea57e6da418")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 21.59 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9262,7 +9262,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9280,7 +9280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfcc3d5d-8c60-44b4-93f9-7689ce090fc1")
-		(property "Reference" "Q10"
+		(property "Reference" "Q11"
 			(at 160.02 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9383,7 +9383,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "Q10")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -9558,7 +9558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d66280af-4d9e-4410-9ce3-b28c176d7e48")
-		(property "Reference" "Q8"
+		(property "Reference" "Q9"
 			(at 160.02 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +9661,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "Q8")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc509ef-f0b3-46ee-82b0-a68718cb8fc2")
-		(property "Reference" "Q6"
+		(property "Reference" "Q7"
 			(at 160.02 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,7 +9782,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "Q6")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -10271,7 +10271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3c6025e-523c-4210-b96a-080e8ce8dab8")
-		(property "Reference" "Q7"
+		(property "Reference" "Q8"
 			(at 160.02 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10374,7 +10374,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -10392,7 +10392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5de36dc-ac78-41e3-bde6-f99ededa3ab2")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 31.75 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10453,7 +10453,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/8f582b23-49f5-40c4-b894-4e132e0d63cc"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)

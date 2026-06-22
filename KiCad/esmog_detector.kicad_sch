@@ -195,14 +195,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2"
+		(symbol "Connector_Audio:AudioJack3_Dual_Switch"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
+			(property "Reference" "J8"
+				(at -2.6035 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -211,8 +211,8 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
+			(property "Value" "AudioJack3_Dual_Switch"
+				(at -2.6035 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -222,7 +222,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.27 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -233,6 +233,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -243,18 +254,7 @@
 					)
 				)
 			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+			(property "ki_keywords" "audio jack dual receptacle stereo headphones phones TRS connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -276,10 +276,10 @@
 					)
 				)
 			)
-			(symbol "AudioJack2_0_1"
+			(symbol "AudioJack3_Dual_Switch_0_1"
 				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -288,9 +288,69 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy -3.175 -5.08) (xy -2.54 -5.715) (xy -1.905 -5.08) (xy -1.905 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.826) (xy -2.286 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.635 -5.715) (xy 0 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -5.334) (xy 0.762 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
+					(start 1.27 6.35)
+					(end -6.35 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -301,7 +361,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+						(xy 1.27 5.08) (xy -3.81 5.08) (xy -3.81 -5.08) (xy -4.445 -5.715) (xy -5.08 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -313,10 +373,70 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 4.826) (xy -2.794 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -0.762 -2.54) (xy -0.762 -0.254) (xy -1.016 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 0.508 -7.62) (xy 0.508 -5.334) (xy 0.254 -5.842)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -324,7 +444,25 @@
 					)
 				)
 			)
-			(symbol "AudioJack2_1_1"
+			(symbol "AudioJack3_Dual_Switch_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -335,7 +473,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -353,7 +491,171 @@
 							)
 						)
 					)
-					(number "T"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AudioJack3_Dual_Switch_2_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,6 +782,183 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2347,12 +2826,6 @@
 		(uuid "0bb8b10d-108b-4956-b992-39ded50d4f59")
 	)
 	(junction
-		(at 26.67 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0eb22363-e448-4242-8439-7bbbfa7b1262")
-	)
-	(junction
 		(at 27.94 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2389,6 +2862,12 @@
 		(uuid "5eb5b792-162e-4f80-a1df-3c6caac14d16")
 	)
 	(junction
+		(at 111.76 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "612bfba6-6b28-4ccf-b2cd-1edef5157b40")
+	)
+	(junction
 		(at 68.58 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2401,10 +2880,10 @@
 		(uuid "73c86d15-55b5-499e-95cc-f18e569792bb")
 	)
 	(junction
-		(at 99.06 73.66)
+		(at 26.67 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ab954f1-cc5c-47cd-8868-be7b54a2a221")
+		(uuid "7edddb71-a273-4eca-9f90-193e41b1177d")
 	)
 	(junction
 		(at 26.67 73.66)
@@ -2419,6 +2898,12 @@
 		(uuid "c6754ffd-e635-4f5a-a5db-8f1aaee687e9")
 	)
 	(junction
+		(at 109.22 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd12dce3-afcf-4e10-b75c-134862b618eb")
+	)
+	(junction
 		(at 54.61 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2429,6 +2914,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfe08be3-e27a-42c0-8313-580dfd611ae2")
+	)
+	(no_connect
+		(at 111.76 50.8)
+		(uuid "46c8106f-94c1-4703-a871-19335d79ff24")
+	)
+	(no_connect
+		(at 111.76 53.34)
+		(uuid "8baff836-77c5-4797-bf2d-ee780d02c566")
+	)
+	(no_connect
+		(at 111.76 48.26)
+		(uuid "f18ed8a6-9a08-44ea-a54d-050d68950946")
 	)
 	(wire
 		(pts
@@ -2569,6 +3066,16 @@
 			(type default)
 		)
 		(uuid "39059df5-db1c-4bc2-9d85-5bce556acf5f")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a03e00-5875-4def-97f1-9944cd8dd00b")
 	)
 	(wire
 		(pts
@@ -2722,16 +3229,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 118.11 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717a7a5b-91ef-49e2-94b7-fe088e53d6ab")
-	)
-	(wire
-		(pts
 			(xy 26.67 73.66) (xy 26.67 77.47)
 		)
 		(stroke
@@ -2792,6 +3289,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 55.88) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f11f64-4b5e-43c2-9ad1-2f16e63d13b0")
+	)
+	(wire
+		(pts
 			(xy 139.7 36.83) (xy 125.73 36.83)
 		)
 		(stroke
@@ -2799,16 +3306,6 @@
 			(type default)
 		)
 		(uuid "87592d57-bd24-4d67-b615-ee81654cf601")
-	)
-	(wire
-		(pts
-			(xy 99.06 39.37) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88148c5d-1140-4fec-b5f9-8971005de025")
 	)
 	(wire
 		(pts
@@ -2852,26 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 59.69) (xy 118.11 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ce08e6-74a0-4cc3-80e9-47091f143b82")
-	)
-	(wire
-		(pts
-			(xy 118.11 59.69) (xy 115.57 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d1898e9-3710-46ea-b024-a0e89ad610bc")
-	)
-	(wire
-		(pts
 			(xy 40.64 55.88) (xy 44.45 55.88)
 		)
 		(stroke
@@ -2912,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 99.06 77.47)
+			(xy 99.06 39.37) (xy 99.06 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2969,6 +3446,16 @@
 			(type default)
 		)
 		(uuid "b5f42c28-760f-46ac-97a6-fea8175bcf46")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a0d402-ae73-4831-bbe7-1dc4e7389cd2")
 	)
 	(wire
 		(pts
@@ -3165,7 +3652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073f06ba-edf3-4bf5-95f9-28a538d7eb95")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 71.12 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3829,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3360,7 +3847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "078fac5c-1d06-40f4-816d-ce982e17286b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 16.51 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3420,7 +3907,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3949,7 +4436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aea9637-fa7e-4e86-aac3-b1bc1b15d040")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 168.91 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4009,7 +4496,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4175,6 +4662,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25eae084-4e46-448c-a68f-13bbdbfd973f")
+		(property "Reference" "C23"
+			(at 104.521 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 104.521 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 109.22 38.4048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C213487"
+			(at 105.41 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c26177dd-c017-4b30-9729-8fc8b4fd3a17")
+		)
+		(pin "2"
+			(uuid "40bff89f-3eff-4a76-9555-0a75b4947183")
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 54.61 0)
 		(unit 1)
@@ -4186,7 +4764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283b0837-355f-4f9a-9ca0-4e976ff5d7d7")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4246,7 +4824,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4410,6 +4988,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 26.67 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3335e8ab-69c9-4114-ab8e-f4be14c6303e")
+		(property "Reference" "C20"
+			(at 31.75 32.1309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 31.75 34.6709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 27.6352 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 26.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C213487"
+			(at 26.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73828b16-5060-4729-bef2-b3d4c6aa7fba")
+		)
+		(pin "2"
+			(uuid "98faa6e7-390b-4d9c-a6d9-ab8641facf66")
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V5")
 		(at 26.67 27.94 0)
 		(unit 1)
@@ -4421,7 +5092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36868735-9ff2-4731-a9bf-20ba98e4a2e2")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 26.67 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4481,7 +5152,100 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR051")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 68.58 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a0b420-7bf1-4bfe-bb74-7b26d473a916")
+		(property "Reference" "C22"
+			(at 72.39 72.0089 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 72.39 74.5489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 67.6148 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 68.58 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C213487"
+			(at 68.58 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f72dc445-1c09-4d86-b9ad-cf9d28498fb7")
+		)
+		(pin "2"
+			(uuid "89726a7f-a215-4d69-a6a0-90c77e5becd1")
+		)
+		(instances
+			(project "Esmog_snuffelaar"
+				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4499,7 +5263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4854c0fe-bb54-4f31-aadc-2448120745a6")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 26.67 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4559,7 +5323,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4723,8 +5487,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 110.49 59.69 0)
+		(lib_id "power:GND")
+		(at 111.76 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4733,9 +5497,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5257bcf9-eadc-4973-9571-f50ca4ccd2eb")
-		(property "Reference" "J10"
-			(at 109.855 50.8 0)
+		(uuid "5338b5a4-c8e1-4cff-aa15-8c35acf0f440")
+		(property "Reference" "#PWR055"
+			(at 105.41 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4744,18 +5509,19 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack"
-			(at 109.855 53.34 0)
+		(property "Value" "GND"
+			(at 107.95 60.9601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "AV-5:Audio_jack"
-			(at 110.49 59.69 0)
+		(property "Footprint" ""
+			(at 111.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +5532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 59.69 0)
+			(at 111.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4776,8 +5542,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 110.49 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,93 +5553,13 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C128987"
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 110.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "cab565fa-2900-4ab0-9313-ee477611884e")
-		)
-		(pin "T"
-			(uuid "689a8e76-f1e0-49e0-9e7d-18eeee841280")
+		(pin "1"
+			(uuid "100d965f-ec15-4d08-b999-0b056dc1f1c2")
 		)
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "J10")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5048,7 +5734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6258fffe-83fb-4fa2-86c6-0777bd901a9c")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 21.336 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AV-5:CONN-TH_AV-5"
+		(property "Footprint" "footprints:CONN-TH_AV-5"
 			(at 16.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5189,166 +5875,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 26.67 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "661d2270-8085-4ef3-a400-9e32ad800787")
-		(property "Reference" "C20"
-			(at 30.48 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 30.48 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 25.7048 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part" "C1691"
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 26.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b09cce43-e2aa-49db-b681-2d0250a65eeb")
-		)
-		(pin "1"
-			(uuid "e4048f64-de68-4207-bd73-9e28485b1e4e")
-		)
-		(instances
-			(project "Esmog_snuffelaar"
-				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "C20")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5366,7 +5893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775e7bca-f8e6-4252-904f-16de5f366a22")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5953,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5921,163 +6448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc54cd9-a46c-4b5c-a8bc-20e2c8bddb6c")
-		(property "Reference" "C23"
-			(at 105.41 31.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 105.41 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 109.22 38.4048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part" "C1691"
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 105.41 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "67819b85-dc4f-40e9-ad09-75036f001f63")
-		)
-		(pin "1"
-			(uuid "1b950a1c-98db-474f-917f-a2b697eb3e67")
-		)
-		(instances
-			(project "Esmog_snuffelaar"
-				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 83.82 77.47 90)
 		(unit 1)
@@ -6087,10 +6457,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b100e5f-b168-4fad-baa1-ddb23d5fe186")
 		(property "Reference" "R28"
-			(at 83.82 71.12 90)
+			(at 83.566 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6100,7 +6469,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 83.82 73.66 90)
+			(at 83.566 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6247,7 +6616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a04736-bab7-4dbb-a712-ffdf8a013f39")
-		(property "Reference" "Q5"
+		(property "Reference" "Q6"
 			(at 88.9 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +6793,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6601,7 +6970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b287497a-1647-4f10-b87f-adce2a671458")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 135.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6661,7 +7030,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6679,7 +7048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf89e76-332f-4d3a-b146-8b1f901bc935")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 125.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6739,15 +7108,15 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 57.15 90)
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 116.84 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6755,11 +7124,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c27f2518-a04b-47fa-8b12-1124765e1841")
-		(property "Reference" "#PWR054"
-			(at 121.92 57.15 0)
-			(hide yes)
+		(uuid "bdb4d316-a275-4cf9-ac3c-c1321522ee1b")
+		(property "Reference" "J9"
+			(at 114.3 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6768,19 +7135,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 119.38 57.1499 90)
+		(property "Value" "AudioJack3_Dual_Switch"
+			(at 111.76 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.57 57.15 0)
+		(property "Footprint" "footprints:Audio_jack"
+			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,7 +7157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 57.15 0)
+			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,8 +7167,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 57.15 0)
+		(property "Description" "Unclear symbol. Too lazy to mak one myself"
+			(at 116.84 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,14 +7177,58 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "JLCPCB Part" "C128987"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "a4acb7c4-0ba3-4f9d-a0d4-d2097b80509a")
+		)
+		(pin "R2"
+			(uuid "7c7fb3b2-5905-4b9b-babc-da3bebbb3ee0")
+		)
+		(pin "2"
+			(uuid "d4b0c0a9-fbf4-440d-ac4c-f959adefe7d6")
+		)
+		(pin "3"
+			(uuid "6a3be564-2374-4a15-ad47-436bfe69139a")
+		)
+		(pin "RN2"
+			(uuid "613cfe3d-8949-4d6b-99f9-1c4fa5b39d6d")
+		)
+		(pin "SN2"
+			(uuid "1bde0faa-0007-4042-81c0-0e0f14024bef")
+		)
+		(pin "5"
+			(uuid "ed1e02ba-415b-40cc-9e61-eef1e2ea36a4")
+		)
+		(pin "6"
+			(uuid "76914afa-b613-4594-b3c3-b35d7f1e7313")
+		)
+		(pin "T2"
+			(uuid "c2dcbdc3-28b7-4a94-b6cc-a749b5ab5e43")
+		)
+		(pin "S2"
+			(uuid "c8132bec-8ee9-4955-8d3b-83760b6a2565")
+		)
+		(pin "TN2"
+			(uuid "3a8673e2-af40-42b2-9047-a0e2932f82c9")
 		)
 		(pin "1"
-			(uuid "f510de2e-f8b2-49c4-9b50-37829ff08a2a")
+			(uuid "9664fc85-fafc-49b0-a33b-95d816c5f924")
 		)
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR054")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6836,7 +7246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c51d0095-1a50-4f1a-b95c-539d43651428")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6897,7 +7307,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7222,165 +7632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 68.58 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc7fef21-ccbc-41b8-87a1-565b1993810b")
-		(property "Reference" "C22"
-			(at 72.39 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 72.39 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 67.6148 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part" "C1691"
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 68.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "33aa8c42-e6ec-4641-bcc9-9f3ae35b7140")
-		)
-		(pin "1"
-			(uuid "42ebf114-d200-499e-935f-0e5fe767dfa1")
-		)
-		(instances
-			(project "Esmog_snuffelaar"
-				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2N3055")
 		(at 52.07 55.88 0)
 		(unit 1)
@@ -7392,7 +7643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de61ecf1-44e9-484a-a715-947b4f4a882e")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 57.15 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7561,7 +7812,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e599583c-d3e0-4f8c-bfc3-018f8364590a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 198.12 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7639,7 +7890,7 @@
 		(instances
 			(project "Esmog_snuffelaar"
 				(path "/bcffc34a-d831-4e24-b8c4-0d923c3d51e5/51fc41c6-776e-483d-a48d-09b05090397e"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
